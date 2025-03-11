@@ -1,0 +1,61 @@
+:root
+{
+    --font-family:'Poppins', sans-serif;
+    --text-color: White;
+    --font-size: 18px;
+    --font-weight: bold;
+    --opacity: 0.6;
+    --text-transform: uppercase;
+    --letter-spacing: 1px;
+    --background-color: grey;    
+}
+body 
+{
+    background-color:var(--background-color);
+}
+p
+{
+    color: var(--text-color);
+    font-family: var(--font-family);
+}
+#box_about 
+{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    border: 5px solid;
+    border-radius: 5%;
+    opacity: var(--opacity);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    text-transform: var(--text-transform);
+    letter-spacing: var(--letter-spacing);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#box_gallery
+{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    border: 5px solid;
+    border-radius: 5%;
+    opacity: var(--opacity);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    text-transform: var(--text-transform);
+    letter-spacing: var(--letter-spacing);
+    position: fixed;
+    bottom: 158px;
+    left:  155px;
+}
