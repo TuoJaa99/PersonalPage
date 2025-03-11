@@ -1,0 +1,123 @@
+/*Frontpage styles */
+@keyframes growAndFade {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+}
+body {
+  background: radial-gradient(circle, #111, #000);
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+.box {
+  height: 160px;
+  width: 160px;
+  background: linear-gradient(135deg, #1b1b1b, #2a2a2a);
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  position: fixed;
+  animation: growAndFade 1s ease-out forwards;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  transition: all 0.4s ease-in-out;
+}
+.box:hover {
+  box-shadow: 0 0 20px rgba(222, 225, 228, 0.8), 0 0 40px rgba(237, 240, 240, 0.5);
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+#box_about {
+  bottom: 0;
+  left: 0;
+}
+
+#box_gallery {
+  bottom: 180px;
+  left: 180px;
+}
+
+#box_news {
+  bottom: 360px;
+  left: 360px;
+}
+
+#line {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 60%;
+  width: 3px;
+  background: white;
+}
+
+#intro {
+  position: absolute;
+  right: 0;
+  transform: translateX(-50%);
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+
+#intro span {
+  display: inline-block;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+#ball {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.style {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*Frontpage styles end */
+/*About page styles*/
+img {
+  border-radius: 5px 5px 0 0;
+  height: auto;
+  width: 100%;
+  max-width: 100px;
+  display: block;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+/*# sourceMappingURL=style.css%5C.map */
